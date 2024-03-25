@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: goldenrod;
+}
+.mainComponent{
+    display: flex;
+    background-color: aquamarine;
+}
+.navComponent{
+    flex: 0.15;
+}
+.tweetComponent{
+    flex: 0.60;
+    
+}
+.trendComponent{
+    flex: 0,25;
+}
+
+.btn{
+    display: flex;
+    list-style: none;
+}
+
+.inner-btn{
+     list-style: none;
+     display: flex;
+
+}
