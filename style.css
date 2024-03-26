@@ -1,37 +1,105 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: goldenrod;
+}
+.mainComponent {
+  display: flex;
+  background-color: aquamarine;
+  height: 100vh;
+}
+.navComponent {
+  flex: 0.15;
+  background-color: rgba(196, 183, 181, 0.616);
+  position: relative;
+}
+.inner-nav {
+  position: absolute;
+  top: 0%;
+  padding: 0 0.4rem 0 0.4rem;
+  background-color: yellow;
+  height: 100%;
+}
+.twitter-logo {
+  padding: 1rem 0 1rem 0;
+}
+.twitter-logo span {
+  font-size: 25px;
+  color: rgb(44, 41, 41);
+
+  padding: 0.5rem;
+  border-radius: 50%;
+}
+.twitter-logo span:hover {
+  cursor: pointer;
+  background-color: rgb(161, 146, 146);
+}
+.nav-list {
+    
 
 }
-body{
-    background-color: goldenrod;
-}
-.mainComponent{
+ .nav-list ul li{
+     padding: 0.4rem;
+     margin-top: 0.5rem;
+     border-radius: 20px;
+     font-size: 1.5rem;
+ }
+ .nav-list ul li:hover{
+     cursor: pointer;
+     background-color:  rgb(161, 146, 146);
+     color: whitesmoke;
+ }
+  .nav-list li i{
+    margin: 0 0.6rem 0 0;
+  }
+
+  .post-btn{
+    width: 100%;
     display: flex;
-    background-color: aquamarine;
-}
-.navComponent{
-    flex: 0.15;
-    background-color: blue;
-}
-.tweetComponent{
-    flex: 0.60;
-    background-color: pink;
+    align-items: center;
+    justify-content: center;
+   
+    margin-top: 1rem;
+    padding: 0.2rem 0;
+  }
+  .post-btn button{
+    color: whitesmoke;
+    font-size: 1.3rem;
+    border: none;
+    width: 90%;
+    border-radius: 20px;
+    padding: 0.3rem 0.2rem;
+    background-color: rgb(74, 74, 214);
+    cursor: pointer;
+  }
+  .post-btn button:hover{
+    background-color: rgb(9, 9, 92);
+  }
+   .nav-profile{
+     position: absolute;
+     bottom:10px;
+     background-color: green;
+     
+   }
+.tweetComponent {
+  flex: 0.6;
+  background-color: pink;
 }
 
-.trendComponent{
-    flex: 0.25;
-    background-color: brown;
+.trendComponent {
+  flex: 0.25;
+  background-color: brown;
 }
 
-.btn{
-    display: flex;
-    list-style: none;
+.btn {
+  display: flex;
+  list-style: none;
 }
 
-.inner-btn{
-     list-style: none;
-     display: flex;
-
+.inner-btn {
+  list-style: none;
+  display: flex;
 }
