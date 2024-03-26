@@ -13,13 +13,16 @@ body{
 }
 .navComponent{
     flex: 0.15;
+    background-color: blue;
 }
 .tweetComponent{
     flex: 0.60;
-    
+    background-color: pink;
 }
+
 .trendComponent{
-    flex: 0,25;
+    flex: 0.25;
+    background-color: brown;
 }
 
 .btn{
