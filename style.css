@@ -12,7 +12,7 @@ body {
 .navComponent {
   flex: 0.22;
   position: relative;
-  /* background-color: aqua; */
+  
 }
 .inner-nav {
   position: absolute;
@@ -110,6 +110,7 @@ body {
 
 .trendComponent {
   flex: 0.23;
+ position: sticky;
 }
 
 .btn {
@@ -298,6 +299,10 @@ body {
   color: rgb(68, 128, 197);
   font-size: 16px;
 }
+ .Active-field{
+  padding:15px 0;
+ }
+
 .Active-field:hover {
   height: 100vh;
   background-color: whitesmoke;
@@ -308,9 +313,6 @@ body {
   text-decoration: underline;
 }
 
-/* .display-image:hover{
-    background: whitesmoke;
-} */
 
 .display-image img {
   width: 100%;
